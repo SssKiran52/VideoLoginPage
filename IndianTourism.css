@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 1s;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    position: relative;
+    top: -60px;
+    filter: opacity(80%);
+
+}
+#headingName{
+    position: relative;
+    top: -550px;
+    left: 500px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+#subContainer{
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: -530px;
+    left: 420px;
+    border-radius: 10px;
+    filter: opacity(40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#subHeading{
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    position: relative;
+    top: -15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.userName{
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.userName:hover{
+    transform: scale(1.1);
+}
+.password{
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.password:hover{
+    transform: scale(1.1);
+}
+.button{
+    width: 40%;
+    height: 25px;
+    border-radius: 10px;
+    color: red;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: none;
+
+}
+.button:hover{
+    background-color: red;
+    transform: scaleX(1.2);
+    cursor: pointer;
+    color: white;
+
+}
